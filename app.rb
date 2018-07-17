@@ -6,15 +6,15 @@ get '/' do
   "Hello, World!"
 end
 
-get '/name'
+get '/name' do
   "My name is Jessica"
 end
 
-get '/hometown'
+get '/hometown' do
   "My hometown is Miami, Florida"
 end 
 
-get '/favorite-song'
+get '/favorite-song' do
   "My favorite song is Safe and Sound by Taylor Swift"
 end 
 
